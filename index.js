@@ -46,4 +46,4 @@ client.on('guildMemberAdd', async (member) => {
 });
 
 // Avvia il bot usando il token
-client.login("MTMxNDk0NDgyNTc0MDYyNzk4OA.G1zS9M.0lqiDgf5N4XvzJUZBltM8MUW_dDDy5m1OAuhZo");
+client.login(process.env.token)
